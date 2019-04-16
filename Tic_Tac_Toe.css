@@ -1,0 +1,49 @@
+.title {
+    font-size: 62px ;
+}
+
+body{
+    user-select: none;
+}
+
+#firstSection {
+    padding-left: 200px;
+    
+}
+
+#history {
+    float: right;
+    margin-top: -580px ;
+    padding-right: 50px;
+    border-left: 2px solid black;
+    height: 520px;
+    padding-left: 20px;
+    overflow : scroll;
+
+}
+
+footer {
+    padding-left: 500px;
+    margin-top: 70px;
+    border-top: 2px solid black;
+    padding-top: 10px;
+}
+
+td {
+     cursor: pointer ;
+     text-align: center ;
+     vertical-align: middle ;
+     font-size: 83px ;
+     
+
+}
+
+#display1{
+    color: red ;
+}
+
+ /*#display2{
+    color: red ;
+} */
+
+
