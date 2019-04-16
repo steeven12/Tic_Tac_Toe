@@ -1,0 +1,66 @@
+<html>
+
+    <head>
+
+        <!--<meta name="viewport"
+        content="width=device-width,initial-scale=1.0">-->
+
+        <title> Tic Tac Toe </title>
+
+        <link rel="stylesheet" href="Tic Tac Toe (css).css" >
+
+        <script src="jquery-3.0.0.js"></script>
+
+    </head>
+
+    <body>
+
+        <div id ="firstSection">
+
+        <h1 class = "title"> Tic-Tac-Toe game ! </h1>
+    
+        <table border="2px solid black" style="table-layout:fixed">
+
+            <tr>
+                <td height= "100px" width= "100px" id="0" class="cell" onclick="myFunction(this,1)"></td>           
+                <td height= "100px" width= "100px" id="1" class="cell" onclick="myFunction(this,2)"></td>
+                <td height= "100px" width= "100px" id="2" class="cell" onclick="myFunction(this,4)"></td>
+            </tr>
+
+            <tr>
+                    <td height= "100px" width= "100px" id="3" class="cell" onclick="myFunction(this,8)"></td>
+                    <td height= "100px" width= "100px" id="4" class="cell" onclick="myFunction(this,16)"></td>
+                    <td height= "100px" width= "100px" id="5" class="cell" onclick="myFunction(this,32)"></td>
+            </tr>
+
+            <tr>
+
+                    <td height= "100px" width= "100px" id="6" class="cell" onclick="myFunction(this,64)"></td>
+                    <td height= "100px" width= "100px" id ="7" class="cell" onclick="myFunction(this,128)"></td>
+                    <td height= "100px" width= "100px" id="8"class="cell" onclick="myFunction(this,256)"></td>
+            </tr>
+
+        </table>
+        
+        
+        <p><h2 style="font-size: 42px"> Player <span id = "display1">1 </span>, it's your turn! </h2></p>
+       
+        </div>
+
+        <div id= "history">
+
+            <p><h1 class="title">History</h1></p>
+            <div>
+            <p><span id="display2"></span></p>
+            </div>
+            
+        </div>
+
+        <footer> Copyright <strong>Steeven Sundanum Drayen</strong> - 2016</footer>
+
+        <script src="Tic Tac Toe (javascript).js"></script>
+       
+
+    </body>
+
+</html>
